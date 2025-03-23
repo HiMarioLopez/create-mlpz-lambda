@@ -32,10 +32,19 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
         if: ${{ steps.release.outputs.release_created }}
 
-      - run: npm ci
+      # Setup pnpm
+      - uses: pnpm/action-setup@v2
+        with:
+          version: latest
+          run_install: false
         if: ${{ steps.release.outputs.release_created }}
 
-      - run: npm publish --provenance
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+        if: ${{ steps.release.outputs.release_created }}
+
+      - name: Publish to npm
+        run: pnpm publish --no-git-checks --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         if: ${{ steps.release.outputs.release_created }}
