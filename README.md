@@ -105,6 +105,14 @@ pnpm deploy # or npm run deploy or yarn deploy
 
 I was tired of repeating the same setup steps for every new Lambda project and wanted to codify my preferred patterns into something reusable. This tool embodies what I believe to be the ideal starting point for modern serverless Node.js applications on AWS.
 
+## Contributing
+
+This project uses [Conventional Commits](https://www.conventionalcommits.org/) for automated versioning and release notes generation. A pre-commit hook is set up to enforce this format.
+
+See [COMMIT_CONVENTION.md](./COMMIT_CONVENTION.md) for a quick reference guide to the commit format.
+
+For more details on the release process, see [RELEASING.md](./RELEASING.md).
+
 ## License
 
 ```md
