@@ -56,7 +56,13 @@ program
                 green("\n✅ Project generated successfully!\n")
             );
         } catch (error) {
-            console.error(red("\n❌ Error generating project:"), error);
+            // Check if this is an interruption error (CTRL+C)
+            if (error.name === 'ExitPromptError' ||
+                (error.message && error.message.includes('User force closed the prompt'))) {
+                console.log(yellow("\n\n🛑 Process cancelled by user. Goodbye!\n"));
+            } else {
+                console.error(red("\n❌ Error generating project:"), error);
+            }
             process.exit(1);
         }
     });
