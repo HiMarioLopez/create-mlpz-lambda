@@ -19,7 +19,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
-          package-name: create-mlpz-lambda
 
       # The logic below handles the npm publication:
       - uses: actions/checkout@v4
