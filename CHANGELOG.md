@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/HiMarioLopez/create-mlpz-lambda/compare/v1.1.0...v1.2.0) (2025-03-23)
+
+
+### Features
+
+* **core:** adds --access public flag to pnpm publish script and bumping version again cool ([feb0795](https://github.com/HiMarioLopez/create-mlpz-lambda/commit/feb07957ee6bfc5431e482f7d02f66ea8ce539d9))
+
 ## [1.1.0](https://github.com/HiMarioLopez/create-mlpz-lambda/compare/v1.0.0...v1.1.0) (2025-03-23)
 
 
