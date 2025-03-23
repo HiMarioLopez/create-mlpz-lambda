@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/HiMarioLopez/create-mlpz-lambda/compare/v1.0.0...v1.1.0) (2025-03-23)
+
+
+### Features
+
+* **core:** some non-existant feature to trigger gh actions lmfao ([e86e63f](https://github.com/HiMarioLopez/create-mlpz-lambda/commit/e86e63fe27d06a46ceb7deb3660264f89fd26295))
+
 ## 1.0.0 (2025-03-23)
 
 
