@@ -1,0 +1,43 @@
+{
+    "name": "create-mlpz-lambda",
+    "version": "1.0.0",
+    "description": "An opinionated CLI tool for generating Node.js-based AWS Lambda projects.",
+    "main": "bin/cli.js",
+    "bin": {
+        "create-mlpz-lambda": "./bin/cli.js"
+    },
+    "keywords": [
+        "aws",
+        "lambda",
+        "node",
+        "generator",
+        "cli",
+        "typescript",
+        "serverless",
+        "aws-cdk",
+        "sam",
+        "esbuild",
+        "webpack",
+        "jest"
+    ],
+    "author": "Mario Lopez <mario@lopez.fyi>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mariolopjr/create-mlpz-lambda.git"
+    },
+    "homepage": "https://github.com/mariolopjr/create-mlpz-lambda#readme",
+    "bugs": {
+        "url": "https://github.com/mariolopjr/create-mlpz-lambda/issues"
+    },
+    "engines": {
+        "node": ">=22.0.0"
+    },
+    "dependencies": {
+        "yoctocolors": "^2.1.1",
+        "commander": "^13.1.0",
+        "fs-extra": "^11.3.0",
+        "@inquirer/prompts": "^7.4.0",
+        "yocto-spinner": "^0.2.1"
+    }
+}
