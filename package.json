@@ -34,10 +34,18 @@
         "node": ">=22.0.0"
     },
     "dependencies": {
-        "yoctocolors": "^2.1.1",
+        "@inquirer/prompts": "^7.4.0",
         "commander": "^13.1.0",
         "fs-extra": "^11.3.0",
-        "@inquirer/prompts": "^7.4.0",
-        "yocto-spinner": "^0.2.1"
+        "yocto-spinner": "^0.2.1",
+        "yoctocolors": "^2.1.1"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^19.8.0",
+        "@commitlint/config-conventional": "^19.8.0",
+        "husky": "^9.1.7"
+    },
+    "scripts": {
+        "prepare": "husky"
     }
 }
