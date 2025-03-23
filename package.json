@@ -24,11 +24,11 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mariolopjr/create-mlpz-lambda.git"
+        "url": "git+https://github.com/HiMarioLopez/create-mlpz-lambda.git"
     },
-    "homepage": "https://github.com/mariolopjr/create-mlpz-lambda#readme",
+    "homepage": "https://github.com/HiMarioLopez/create-mlpz-lambda#readme",
     "bugs": {
-        "url": "https://github.com/mariolopjr/create-mlpz-lambda/issues"
+        "url": "https://github.com/HiMarioLopez/create-mlpz-lambda/issues"
     },
     "engines": {
         "node": ">=22.0.0"
