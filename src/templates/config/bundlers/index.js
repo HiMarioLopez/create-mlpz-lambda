@@ -2,7 +2,6 @@ function getEsbuildConfigContent(options) {
   const isTypeScript = options.language === "typescript";
 
   return `const esbuild = require('esbuild');
-const { nodeExternalsPlugin } = require('esbuild-node-externals');
 const fs = require('fs');
 const path = require('path');
 
@@ -23,8 +22,8 @@ const options = {
   target: 'node22',
   outdir: 'dist/handlers',
   sourcemap: true,
+  external: ['aws-sdk'],
   ${isTypeScript ? "tsconfig: './tsconfig.json'," : ""}
-  plugins: [nodeExternalsPlugin()],
   minify: process.env.NODE_ENV === 'production',
 };
 

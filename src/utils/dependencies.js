@@ -28,7 +28,7 @@ function getDevDependencies(options) {
     }
 
     if (options.bundler === "esbuild") {
-        devDeps.push("esbuild", "esbuild-node-externals");
+        devDeps.push("esbuild");
     } else if (options.bundler === "webpack") {
         devDeps.push(
             "webpack",
