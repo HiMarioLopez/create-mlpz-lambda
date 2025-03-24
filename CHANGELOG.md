@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/HiMarioLopez/create-mlpz-lambda/compare/v1.2.0...v1.2.1) (2025-03-24)
+
+
+### Bug Fixes
+
+* fixes broken builds for lambdas (oops) ([e8eba55](https://github.com/HiMarioLopez/create-mlpz-lambda/commit/e8eba552a2ee26b513b470357485df443445ce9e))
+
 ## [1.2.0](https://github.com/HiMarioLopez/create-mlpz-lambda/compare/v1.1.0...v1.2.0) (2025-03-23)
 
 

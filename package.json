@@ -1,6 +1,6 @@
 {
     "name": "create-mlpz-lambda",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "An opinionated CLI tool for generating Node.js-based AWS Lambda projects.",
     "main": "bin/cli.js",
     "bin": {
